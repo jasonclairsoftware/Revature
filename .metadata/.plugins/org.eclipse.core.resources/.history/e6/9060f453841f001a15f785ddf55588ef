@@ -1,0 +1,10 @@
+package dev.jason.staticworld;
+
+public class StaticObject {
+
+	public static int counter;
+	
+	StaticObject() {
+		this.counter++;
+	}
+}

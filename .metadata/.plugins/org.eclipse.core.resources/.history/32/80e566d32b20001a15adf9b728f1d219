@@ -1,0 +1,22 @@
+package dev.jason.auction;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CarLot {
+	// Container of cars in lot
+	private Set<Car> cars = new HashSet<Car>();
+	
+	public CarLot(Car firstcar) {
+		cars.add(firstcar);
+	}
+	
+	// Getters and Setters
+	public Set<Car> getAllCars() {
+		return this.cars;
+	}
+	
+	public void addCar(Car car) { 
+		cars.add(car);
+	}
+}

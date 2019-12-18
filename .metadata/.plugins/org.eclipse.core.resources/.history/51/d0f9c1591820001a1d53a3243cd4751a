@@ -1,0 +1,9 @@
+package dev.jason.aution;
+
+public class Car {
+	//make model year mileage and value
+	private String make;
+	private String model;
+	private short yearmanufactured;
+	//private 
+}

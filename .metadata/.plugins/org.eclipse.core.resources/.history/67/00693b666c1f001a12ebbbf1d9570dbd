@@ -1,0 +1,6 @@
+package dev.jason.staticworld;
+
+public class PokemonTrainer {
+public static int thing;
+
+}

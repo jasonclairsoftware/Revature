@@ -1,0 +1,11 @@
+package dev.jason.staticworld;
+
+public class SO {
+
+	public static int counter = 0;
+	
+
+	public static void printInfo() {
+		System.out.println("counter is " + SO.counter);
+	}
+}

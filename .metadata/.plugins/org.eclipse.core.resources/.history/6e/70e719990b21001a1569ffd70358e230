@@ -1,0 +1,24 @@
+package dev.jason.app;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Animal voidro = new Animal();
+		Animal slytherin = new Animal("snake");
+		Cat kitty = new Cat("Black Short Haired");
+		Dog doggo = new Dog("Huskey");
+		
+		// Parent class
+		voidro.cry();
+		slytherin.cry();
+		
+		//Derived class
+		kitty.cry();
+		kitty.landPurrfectly();
+		
+		doggo.cry();
+		doggo.dig();
+	
+	}
+}

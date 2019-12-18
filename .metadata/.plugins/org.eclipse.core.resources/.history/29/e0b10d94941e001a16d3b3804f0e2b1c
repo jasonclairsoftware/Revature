@@ -1,0 +1,20 @@
+package com.facebook.atm.frontend;
+
+public class AtmPlayground {
+
+	public static void main(String[] args) {
+
+
+		Account accts[] = new Account[4];
+
+
+		accts[0] = new Account();
+		System.out.println(accts[0].money);
+		
+		
+	}
+
+
+	
+	
+}

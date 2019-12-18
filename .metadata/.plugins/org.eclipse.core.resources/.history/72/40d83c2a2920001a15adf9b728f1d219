@@ -1,0 +1,66 @@
+package dev.jason.auction;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Auction {
+	// Data Members
+	private Map<String, Salesman> salesaccounts = new HashMap<String, Salesman>();
+	private Map<String, Salesman> loggedsalesaccounts = new HashMap<String, Salesman>();
+	private Map<String, Bidder> bidderaccounts = new HashMap<String, Bidder>();
+	private Map<String, Bidder> loggedbidderaccounts = new HashMap<String, Bidder>();
+	
+	// There is no error checking for duplicate usernames at this time
+	// Getters and Setters
+	private void addSalesAccount(Salesman salesman) {
+		salesaccounts.put(salesman.getUsername(), salesman);
+	}
+	private Salesman getSalesAccount(String username) {
+		return salesaccounts.get(username);
+	}
+	private void addBidderAccount(Bidder bidder) {
+		this.bidderaccounts.put(bidder.getUsername(), bidder);
+	}
+	private Bidder getBidderAccount(String username) {
+		return this.bidderaccounts.get(username);
+	}
+	private Salesman getLoggedSalesman(String username) {
+		return this.getLoggedSalesman(username);
+	}
+	private void addLoggedSalesman(Salesman salesman) {
+		this.loggedsalesaccounts.put(salesman.getUsername(), salesman);
+	}
+	private Bidder getLoggedBidder(String username) {
+		return this.loggedbidderaccounts.get(username);
+	}
+	private void setLoggedBidder(Bidder bidder) {
+		this.loggedbidderaccounts.put(bidder.getUsername(), bidder);
+	}
+	
+	// Methods
+	// TODO:: login method
+	public void createNewSalesAccount() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Welcome to L R Jenkin's");
+		System.out.println("Please enter your first name\nFIRST: ");
+		String fname = scan.nextLine();
+		
+		System.out.println("Please enter your last name\nLAST :");
+		String lname = scan.nextLine();
+		
+		System.out.println("Please enter your new username\nUSERNAME :");
+		String username = scan.nextLine();
+		
+		Salesman salesman = new Salesman(username, fname, lname);
+		this.addSalesAccount(salesman);
+		
+		System.out.println("Congratulations! You have SUCCSESSFULLY created a new account.");
+		// testing successful load
+		//System.out.println(this.salesaccounts.get(username).getFirstName());
+		//System.out.println(this.salesaccounts.get(username).getLastName());
+		//System.out.println(this.salesaccounts.get(username).getUsername());
+		scan.close();
+	}
+
+}

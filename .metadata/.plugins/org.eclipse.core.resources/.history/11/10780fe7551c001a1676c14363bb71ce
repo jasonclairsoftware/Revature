@@ -1,0 +1,25 @@
+package dev.jason.scopes;
+
+public class Box {
+
+	// Data Members
+	public String owner;
+	public String content;
+	
+	// CTOR
+	public Box() {
+		this.owner = "John Doe";
+		this.content = "Empty";
+	}
+	
+	public Box(String owner, String content) {
+		this.owner = owner;
+		this.content = content;
+	}
+	
+	// Methods
+	public void showInfo() {
+		System.out.println("Owner : " + this.owner + " content : " + this.content);
+	}
+	
+}

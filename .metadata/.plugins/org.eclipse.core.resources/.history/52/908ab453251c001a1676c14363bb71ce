@@ -1,0 +1,12 @@
+package dev.jason.primitives;
+
+public class Student {
+
+	// Data Members
+	public String name;
+	public int age;
+	
+	public void printInfo() {
+		System.out.println(this.name + " is " + this.age + " years old.");
+	}
+}

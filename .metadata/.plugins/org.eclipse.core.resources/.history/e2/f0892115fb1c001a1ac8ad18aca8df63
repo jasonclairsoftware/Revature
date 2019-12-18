@@ -1,0 +1,82 @@
+package dev.jason.mealsproject;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Order {
+
+	public final float tax = 0.3f;
+	List<Meal> meals;
+	
+	public Order() {
+		meals = new ArrayList<Meal>();
+	}
+	
+	private void orderQuestion() {
+		System.out.println("What would you like to order?");
+		System.out.println("1) Nuggets");
+		System.out.println("2) Burger");
+		System.out.println("3) Hot Dog");
+	}
+	
+	private Meal setMeal(int type) {
+		Meal newmeal = new Meal();
+		switch (type) {
+		case 1:
+			newmeal.type = "Nuggets";
+			newmeal.price = 1.45f;
+			break;
+		case 2:
+			newmeal.type = "Burger";
+			newmeal.price = 3.50f;
+			break;
+		case 3:
+			newmeal.type = "HotDog";
+			newmeal.price = 1.20f;
+			break;
+
+		default:
+			newmeal.type = "Invalid";
+			newmeal.price = 0.0f;
+			break;
+		}
+		return newmeal;
+	}
+	
+	public void askOrderInput() {
+		Scanner scan = new Scanner(System.in);
+		this.orderQuestion();
+		int response = scan.nextInt();
+		if (response >= 1 && response <= 3) {
+			meals.add(this.setMeal(response));
+		}
+		else {
+			response = 0;
+			System.out.println("That is not a valid order. Try again.");
+		} 
+	scan.close();
+	}
+	
+	public void orderSummery() {
+		for (Meal meal : meals) {
+			System.out.println(meal.type);
+			System.out.println(meal.price);
+			System.out.println(meals.size());		
+			}
+		
+		// TODO:: get total order price
+		float totalprice = 0.0f;
+		for (Meal meal : meals) {
+			totalprice += meal.price;
+		}
+		System.out.println("The total before tax is: " + totalprice );
+		totalprice *= this.tax;
+		
+		System.out.println("The total after tax is: " + totalprice);
+	}
+	
+	
+	
+	
+}

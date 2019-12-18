@@ -1,0 +1,12 @@
+package dev.jason.primitives;
+
+public class StudentPlayground {
+
+	public static void main(String[] args) {
+		Student jaxon = new Student("Jaxon Smith", -587);
+		Student williams = new Student("John Williams", 54);
+		
+		jaxon.printInfo();
+		williams.printInfo();
+	}
+}

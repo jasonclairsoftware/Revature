@@ -1,0 +1,17 @@
+package dev.jason.App;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		Salesman lee = new Salesman("lrjenkins", "Lee Roy Jenkins", 0, 0.0f);
+		
+		Car mine = new Car("Honda", "Civic", 2000, 200000, 300.0f);
+		Car yours = new Car("Lexis", "Eclipse", 2019, 0, 90000.00f);
+		
+		lee.printStats();
+		lee.sellCar(mine);
+		lee.printStats();
+		
+	}
+}

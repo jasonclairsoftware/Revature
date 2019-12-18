@@ -1,0 +1,21 @@
+package dev.jason.auction;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Auction {
+	private Map<String, Salesman> salesaccounts = new HashMap<String, Salesman>();
+	// TODO:: add userAccountMap
+	
+	// TODO:: addBidderAccount
+	public void addSalesAccount(String username, Salesman tool) {
+		// TODO:: error checking for duplicate usernames
+		salesaccounts.put(username, tool);
+	}
+
+	public Salesman getSalesAccount(String username) {
+		return salesaccounts.get(username);
+	}
+	// TODO:: login method
+
+}

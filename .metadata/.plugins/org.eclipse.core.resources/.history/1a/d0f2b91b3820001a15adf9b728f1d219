@@ -1,0 +1,52 @@
+package dev.jason.auction;
+
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class CarLot {
+	// Container of cars in lot
+	private Set<Car> cars;
+	
+	public CarLot() {
+		cars = new HashSet<Car>();
+	}
+	
+	// Getters and Setters
+	private Set<Car> getAllCars() {
+		return this.cars;
+	}
+	
+	public void addCar(Car car) { 
+		cars.add(car);
+	}
+	/**
+	 * asks to create a new car and load it into the carlot
+	 */
+	public void addCar() {
+		System.out.println("What is the make of the car\nMAKE: ");
+		String make = Auction.scan.nextLine();
+		System.out.println("What is the model of the car\nMODEL :");
+		String model = Auction.scan.nextLine();
+		System.out.println("What year was the car manufactured\nYEAR :");
+		short year = Short.parseShort(Auction.scan.nextLine());
+		System.out.println("What is the price of the car\nPRICE :");
+		float price = Float.parseFloat(Auction.scan.nextLine());
+		
+		Car car = new Car(make, model, year, price);
+		cars.add(car);
+
+	}
+	public void showInventory() {
+		for (Car car : cars) {
+			System.out.println("MAKE :" + car.getMake() + '\t'
+			+ "MODEL :" + car.getModel() + '\t'
+			+ "YEAR :" + car.getYearManufactured() + '\t'
+			+ "YEAR :" + car.getYearManufactured() + '\t'
+			+ "PRICE :" + car.getPrice() + '\n');
+//			System.out.println("MODEL :" + car.getModel());
+//			System.out.println("YEAR :" + car.getYearManufactured());
+//			System.out.println("PRICE :" + car.getPrice() + '\n');
+		}
+	}
+}

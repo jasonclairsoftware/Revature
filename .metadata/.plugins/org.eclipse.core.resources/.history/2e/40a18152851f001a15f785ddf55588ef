@@ -1,0 +1,15 @@
+package dev.jason.staticworld;
+
+public class StaticObject {
+
+	public static int counter = 0;
+	
+	StaticObject() {
+		this.counter++;
+	}
+	
+	
+	public static void printInfo() {
+		System.out.println("counter is " + StaticObject.counter);
+	}
+}

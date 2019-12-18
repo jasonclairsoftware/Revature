@@ -1,0 +1,5 @@
+package dev.jason.auction;
+
+public class Auction {
+
+}

@@ -1,0 +1,11 @@
+package dev.jason.staticworld;
+
+public class StaticPlayground {
+
+	public static void main(String[] args) {
+
+		StaticObject.printInfo();
+		
+		
+	}
+}

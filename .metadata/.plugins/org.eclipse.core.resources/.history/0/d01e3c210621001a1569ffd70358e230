@@ -1,0 +1,14 @@
+package dev.jason.app;
+
+public class App {
+
+	public static void main(String[] args) {
+		Animal voidro = new Animal();
+		Animal slytherin = new Animal("snake");
+		Cat kitty = new Cat();
+		voidro.cry();
+		slytherin.cry();
+		
+		kitty.cry();
+	}
+}

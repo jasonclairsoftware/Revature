@@ -1,0 +1,37 @@
+package dev.jason.auction;
+
+public class Salesman {
+
+	// Data Members
+	private String username;
+	private String fname;
+	private String lname;
+	
+	// CTOR
+	public Salesman(String username, String fname, String lname) {
+		this.setUsername(username);
+		this.setFirstName(fname);
+		this.setLastName(lname);
+	}
+	
+	// Getter and Setters
+	public String getUsername() {
+		return this.username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getFirstName() {
+		return this.fname;
+	}
+	public void setFirstName(String fname) {
+		this.fname = fname;
+	}
+	public String getLastName() {
+		return this.lname;
+	}
+	public void setLastName(String lname) {
+		this.lname = lname;
+	}
+
+}

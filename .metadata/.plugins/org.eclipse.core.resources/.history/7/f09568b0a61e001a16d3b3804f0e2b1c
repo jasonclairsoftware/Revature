@@ -1,0 +1,28 @@
+package dev.jason.working;
+
+public class LearningPlayground {
+
+	public static void main(String[] args) {
+		//Cat cat = new Cat();
+
+		//cat.printInfo();
+		//cat.printInfo();
+		
+		
+		Cat[] cats = new Cat[4];
+		Cat kitty;
+
+		
+		for (int i = 0; i < cats.length; i++) {
+			kitty = new Cat("kitty", 12);
+			cats[i] = kitty;
+		}
+		
+		for (Cat cat : cats) {
+			cat.printInfo();
+		}
+
+		
+		
+	}
+}

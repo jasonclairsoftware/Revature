@@ -1,0 +1,5 @@
+package dev.jason.structures;
+
+public enum days {
+
+}

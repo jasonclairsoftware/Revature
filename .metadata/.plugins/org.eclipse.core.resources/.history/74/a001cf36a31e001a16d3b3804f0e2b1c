@@ -1,0 +1,17 @@
+package dev.jason.working;
+
+public class LearningPlayground {
+
+	public static void main(String[] args) {
+		Cat cat = new Cat();
+
+		cat.printInfo();
+		cat.printInfo();
+		
+		
+		Cat[] cats = new Cat[4];
+		cats[0].printInfo();
+		
+		
+	}
+}

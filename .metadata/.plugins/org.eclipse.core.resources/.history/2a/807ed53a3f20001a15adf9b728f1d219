@@ -1,0 +1,40 @@
+package dev.jason.auction;
+
+public class Bidder {
+
+	// Data Members
+	private String username;
+	private String fname;
+	private String lname;
+	
+	// CTOR
+	public Bidder(String username, String fname, String lname) {
+		this.setUsername(username);
+		this.setFirstName(fname);
+		this.setLastName(lname);
+	}
+	
+	// Getters and Setters
+	public String getUsername() {
+		return this.username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getFirstName() {
+		return this.fname;
+	}
+	public void setFirstName(String fname) {
+		this.fname = fname;
+	}
+	public String getLastName() {
+		return this.lname;
+	}
+	public void setLastName(String lname) {
+		this.lname = lname;
+	}
+	
+	
+	
+	
+}

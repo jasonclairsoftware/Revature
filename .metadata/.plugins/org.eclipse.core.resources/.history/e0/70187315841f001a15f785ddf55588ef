@@ -1,0 +1,22 @@
+package dev.jason.staticworld;
+
+public class StaticPlayground {
+
+	public static void main(String[] args) {
+		
+		
+		//PokemonTrainer poke = new PokemonTrainer();
+		
+		double x;
+		for (int i = 0; i < 100; i++) {
+			 x = Math.random()*100;
+			System.out.println(x);
+		}
+		
+		
+		
+		//int z = PokemonTrainer.thing(x);
+		
+		//System.out.println(z);
+	}
+}

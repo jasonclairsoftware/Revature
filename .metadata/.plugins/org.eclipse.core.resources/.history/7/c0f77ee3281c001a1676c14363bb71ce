@@ -1,0 +1,10 @@
+package dev.jason.primitives;
+
+public class StudentPlayground {
+
+	public static void main(String[] args) {
+		Student advancedStudent = new Student();
+		
+		advancedStudent.printInfo();
+	}
+}

@@ -1,0 +1,23 @@
+package dev.jason.staticworld;
+
+public class StaticPlayground {
+
+	public static void main(String[] args) {
+
+
+		SO one = new SO();
+		SO two = new SO();
+		SO three = new SO();
+		
+		SO.counter = 19;
+		one.price = 3;
+		two.price = 45;
+		three.price = 99;
+		
+		System.out.println(SO.counter);
+		System.out.println(one.price);
+		System.out.println(two.price);
+		System.out.println(three.price);
+		
+	}
+}

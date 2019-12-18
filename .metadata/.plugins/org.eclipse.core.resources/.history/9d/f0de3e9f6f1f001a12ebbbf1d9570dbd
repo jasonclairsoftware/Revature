@@ -1,0 +1,13 @@
+package dev.jason.staticworld;
+
+public class PokemonTrainer {
+
+	public int thing(int y) {
+		System.out.println(y);
+		y = 3;
+		System.out.println("y = " + y);
+		return y;
+		
+	}
+
+}
