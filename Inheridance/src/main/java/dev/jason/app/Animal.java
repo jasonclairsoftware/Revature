@@ -20,9 +20,7 @@ public abstract class Animal {
 		this.spicies = spicies;
 	}	
 	
-	public void cry() {
-		System.out.println("Makes an aminal sound...");
-	}
+	public abstract void cry();
 	
 	public void discribeSelf() {
 		System.out.println("SPICIES :" + this.getSpicies());

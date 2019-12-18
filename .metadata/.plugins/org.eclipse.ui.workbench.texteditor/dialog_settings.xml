@@ -6,13 +6,15 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="scan"/>
+		<item key="selection" value="secondcard"/>
 		<list key="findhistory">
+			<item value="firstcard"/>
 			<item value="scan"/>
 			<item value="discrideSelf"/>
 			<item value="discribeSelf"/>
 		</list>
 		<list key="replacehistory">
+			<item value="secondcard"/>
 			<item value="discribeSelf"/>
 		</list>
 	</section>

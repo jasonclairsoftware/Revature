@@ -20,9 +20,12 @@ public class BatteryCode {
 
 	public static void main(String[] args) {
 		
-		// AstralBody ab= new AstralBody();		// This should not be able to work
+		//AstralBody ab= new AstralBody();		// This should not be able to work
 		Planet earth = new Planet("Temperate");
 		Moon moon = new Moon("Dead");
+		
+		AsteralBody ast = new Moon("Goodies");
+		ast.bodyBehavior();
 		
 		earth.bodyBehavior();
 		moon.bodyBehavior();

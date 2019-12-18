@@ -29,7 +29,7 @@ public class App {
 		kitty.discribeSelf();
 		doggo.discribeSelf();
 		
-		//Animal ani = doggo;
+		Animal ani = doggo;
 		
 		List<Animal> animals = new ArrayList<Animal>();
 //		animals.add(slytherin);
@@ -37,11 +37,17 @@ public class App {
 		animals.add(doggo);
 		animals.add(axel);
 		
-		for (Animal congoodies : animals) {
-			congoodies.discribeSelf();
+		for (Animal anii : animals) {
+			anii.discribeSelf();
 			
-			if (congoodies instanceof Cat) System.out.println("I'm a kitty..");
+			if (anii instanceof Cat) System.out.println("I'm a kitty..");
 		}
+		
+		Flyable plane = new Plane();
+		Flyable bird = new Bird();
+		
+		System.out.println(plane.canCarry(500));
+		System.out.println(bird.canCarry(500));
 
 		
 	
