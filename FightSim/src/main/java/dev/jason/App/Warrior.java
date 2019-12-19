@@ -1,10 +1,11 @@
 package dev.jason.App;
 
-public abstract class Warrior {
+public abstract class Warrior implements Fightable{
 
 	private String name;
 	private int strength;
 	private int health;
+	public static int totwarriors;
 	
 	public String getName() {
 		return name;
@@ -27,16 +28,24 @@ public abstract class Warrior {
 		return health;
 	}
 	/**
-	 * The object will "die" if health reaches ZERO
-	 * @param health - must be greater than ZERO; will default to 100 if failed
+	 * The object will "die" if health <= ZERO
+	 * @param health
 	 */
 	public void setHealth(int health) {
-		if (health > 0) this.health = health;
-		else this.health = 100;
+		this.health = health;
 	}
 	public void printInfo() {
 		System.out.println("NAME :" + this.getName() + '\t'
 				+ "STRENGTH :" + this.getStrength() + '\t'
 				+ "HEALTH :" + this.getHealth());
+	}
+	
+	public boolean isDead() {
+		if (this.getHealth() <= 0) {
+			// DEAD
+			Warrior.totwarriors--;
+			return true;
+		}
+		else return false;
 	}
 }

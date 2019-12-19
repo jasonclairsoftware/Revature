@@ -32,9 +32,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="dev.jason.garbagecollection.Book"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.math.MathContext"/>
     <fullyQualifiedTypeName name="dev.jason.app.Animal"/>
     <fullyQualifiedTypeName name="Inheridence.AsteralBody"/>
@@ -43,12 +41,16 @@
     <fullyQualifiedTypeName name="dev.jason.credit.RewardsCard"/>
     <fullyQualifiedTypeName name="dev.jason.credit.DimondCard"/>
     <fullyQualifiedTypeName name="dev.jason.credit.CreditCard"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="dev.jason.design.Student"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="dev.jason.design.Calcable"/>
     <fullyQualifiedTypeName name="dev.jason.design.Calculator"/>
     <fullyQualifiedTypeName name="dev.jason.App.Hero"/>
+    <fullyQualifiedTypeName name="dev.jason.App.Fightable"/>
+    <fullyQualifiedTypeName name="dev.jason.App.GameState"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="dev.jason.App.Enemy"/>
 </qualifiedTypeNameHistroy>
