@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Code\Revature\FightSim\src\main\java\dev\jason\App\DrawBuffer.java"/>
 			<item value="D:\Code\Revature\Dealership"/>
 			<item value="D:\Code\Revature\JavaBasicsOne"/>
 			<item value="D:\Code\Revature\Playground\src\default_package\main.java"/>
@@ -52,6 +53,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JavaBasicsSeven"/>
 			<item value="JavaBasicsSix"/>
 			<item value="FightSim"/>
 			<item value="Exercises"/>
@@ -66,7 +68,6 @@
 			<item value="JavaBasicsThree"/>
 			<item value="JavaBasicsTwo"/>
 			<item value="RomanNumerals"/>
-			<item value="JavaBasicsOne"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

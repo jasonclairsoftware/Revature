@@ -2,5 +2,5 @@ package dev.jason.App;
 
 public interface Fightable {
 
-	public void attack(Warrior target);
+	public String attack(Warrior target);
 }
