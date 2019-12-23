@@ -62,7 +62,7 @@ public class Game extends JFrame {
 				// Pausing the game
 				this.timer.resetTimer();
 				do {
-					if (this.timer.elapsedTime() >= 1)
+					if (this.timer.elapsedTime() >= 3)
 						break;
 				} while (true);
 
