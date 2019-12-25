@@ -53,6 +53,11 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ExtraProject"/>
+			<item value="XMasEve"/>
+			<item value="Garbage"/>
+			<item value="TDD"/>
+			<item value="Playground"/>
 			<item value="JavaBasicsSeven"/>
 			<item value="JavaBasicsSix"/>
 			<item value="FightSim"/>
@@ -63,11 +68,6 @@
 			<item value="CarAuction"/>
 			<item value="StaticExample"/>
 			<item value="Fun"/>
-			<item value="Atm"/>
-			<item value="JavaBasicsFour"/>
-			<item value="JavaBasicsThree"/>
-			<item value="JavaBasicsTwo"/>
-			<item value="RomanNumerals"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
