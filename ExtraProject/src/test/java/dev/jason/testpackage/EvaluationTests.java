@@ -141,24 +141,70 @@ public class EvaluationTests {
 		Assert.assertEquals(true, result);
 
 	}
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+//	@Test
+//	public void toPigLatinTest() {
+//		EvaluationService es = new EvaluationService();
+//		
+//
+//		String result = es.toPigLatin("pig latin banana happy duck me too bagel smile string stupid eat omelet are egg");
+//		Assert.assertEquals("igpay atinlay ananabay appyhay uckday emay ootay agelbay ilesmay ingstray upidstay eatay omeletay areay eggay", result);
+//	}
 
+	@Test
+	public void isArmstrongNumberTest() {
+//		* 9 is an Armstrong number, because 9 = 9^1 = 9 10 is not an Armstrong number,
+//				 * because 10 != 1^2 + 0^2 = 2 153 is an Armstrong number, because: 153 = 1^3 +
+//				 * 5^3 + 3^3 = 1 + 125 + 27 = 153 154 is not an Armstrong number, because: 154
+//				 * != 1^3 + 5^3 + 4^3 = 1 + 125 + 64 = 190 Write some code to determine whether
+//				 * a number is an Armstrong number.
+
+		EvaluationService es = new EvaluationService();
+		boolean result = es.isArmstrongNumber(153);
+		Assert.assertEquals(true, result);
+		result = es.isArmstrongNumber(154);
+		Assert.assertEquals(false, result);
+
+	}
+
+	@Test
+	public void calculatePrimeFactorsOfTest() {
+		EvaluationService es = new EvaluationService();
+		List<Long> result = es.calculatePrimeFactorsOf(200);
+
+//		for (int i = 0; i < result.size(); i++) {
+//			System.out.println(result.get(i));
+//		}
+
+	}
+
+	@Test
+	public void rotationalCipherTest() {
+		EvaluationService.RotationalCipher cypher = new EvaluationService.RotationalCipher(13);
+		String result = cypher.rotate("The quick brown fox jumps over the lazy dog");
+
+		Assert.assertEquals("mur dhvpx oebja sbk whzcf bire gur ynml qbt", result);
+
+	}
+
+	@Test
+	public void AtbashCipherTest() {
+//		EvaluationService.AtbashCipher cypher = EvaluationService.AtbashCipher();
+//		
+//		String encoded = cypher.decode("thequickbrownfoxjumpsoverthelazydog");
+//		System.out.println(encoded);
+//		Assert.assertEquals(encoded, cypher.decode(encoded));
+	}
+
+	@Test
+	public void isPangramTest() {
+		EvaluationService es = new EvaluationService();
+
+		boolean result = false;
+		result = es.isPangram("The quick brown fox jumps over the lazy dog");
+		Assert.assertEquals(true, result);
+		result = es.isPangram("Willow");
+		Assert.assertEquals(false, result);
+
+	}
 }

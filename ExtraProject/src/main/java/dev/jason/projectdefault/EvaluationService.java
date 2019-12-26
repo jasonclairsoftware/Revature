@@ -1,6 +1,7 @@
 package dev.jason.projectdefault;
 
 import java.time.temporal.Temporal;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -107,13 +108,15 @@ public class EvaluationService {
 		}
 
 		public boolean isIsosceles() {
-			if (this.getSideOne() == this.getSideTwo() || this.getSideOne() == this.getSideThree() || this.getSideTwo() == this.getSideThree())
+			if (this.getSideOne() == this.getSideTwo() || this.getSideOne() == this.getSideThree()
+					|| this.getSideTwo() == this.getSideThree())
 				return true;
 			return false;
 		}
 
 		public boolean isScalene() {
-			if (this.getSideOne() != this.getSideTwo() && this.getSideOne() != this.getSideThree() && this.getSideTwo() != this.getSideThree())
+			if (this.getSideOne() != this.getSideTwo() && this.getSideOne() != this.getSideThree()
+					&& this.getSideTwo() != this.getSideThree())
 				return true;
 			return false;
 		}
@@ -335,22 +338,59 @@ public class EvaluationService {
 	 */
 	public String toPigLatin(String string) {
 
-//		1) When words begin with consonant clusters (multiple consonants that form one sound),
-//		the whole sound is added to the end when speaking or writing.
-//
-//		"smile" = "ilesmay"
-//		"string" = "ingstray"
-//		"stupid" = "upidstay"
-//		"glove" = "oveglay"
-		
-		
-//		2) For words that begin with vowel sounds, one just adds "way" or "yay" to the end (or just "ay"). Examples are:
-//
-//		"eat" = "eatway" or "eatay"
-//		"omelet" = "omeletway" or "omeletay"
-//		"are" = "areway" or "areay"
-//		"egg" = "eggway" or "eggay"
-		return null;
+		List<String> words = new ArrayList<String>();
+		StringBuilder worker = new StringBuilder(string.toLowerCase());
+		int startword = 0;
+		final String vowels = "aeiou";
+
+		// 1) Finding out how many words are to be translated
+		for (int i = 0; i < worker.length(); i++) {
+			// We found the end of a word to be translated
+			if (worker.charAt(i) == ' ') {
+				// Add word to the list
+				words.add(worker.substring(startword, i));
+				startword = i + 1;
+			}
+		}
+
+		// adds the last word to the list
+		words.add(worker.substring(startword));
+		// Good here
+//		for (int i = 0; i < words.size(); i++) {
+//			System.out.println(words.get(i));
+//		}
+		// 2) count how many letters before a vowel for each word
+		for (int i = 0; i < words.size(); i++) {
+			int lettercount = 0;
+			for (int y = 0; y < words.get(i).length(); y++) {
+				String preletters;
+				if (vowels.indexOf(words.get(i).charAt(y)) >= 0) {
+					// its a vowel
+					if (lettercount != 0) {
+						preletters = words.get(i).substring(0, lettercount - 1);
+						String postletters = words.get(i).substring(lettercount);
+						String concatletters = postletters.concat(preletters);
+						concatletters.concat("ay");
+						words.set(i, concatletters);
+					} else {
+						String temp = new String(words.get(i) + "ay");
+						words.set(i, temp);
+					}
+				} else {
+					lettercount++;
+				}
+			}
+
+		}
+		String result = new String();
+		for (int i = 0; i < words.size(); i++) {
+			result.concat(words.get(i) + ' ');
+		}
+
+		for (int i = 0; i < words.size(); i++) {
+			System.out.println(words.get(i));
+		}
+		return result;
 	}
 
 	/**
@@ -369,7 +409,15 @@ public class EvaluationService {
 	 * @return
 	 */
 	public boolean isArmstrongNumber(int input) {
-		// TODO Write an implementation for this method declaration
+		int numdigits = String.valueOf(input).length();
+		int result = 0;
+		String numbers = String.valueOf(input);
+
+		for (int i = 0; i < numdigits; i++) {
+			result += Math.pow(Character.digit(numbers.charAt(i), 10), numdigits);
+		}
+		if (input == result)
+			return true;
 		return false;
 	}
 
@@ -384,8 +432,26 @@ public class EvaluationService {
 	 * @return
 	 */
 	public List<Long> calculatePrimeFactorsOf(long l) {
-		// TODO Write an implementation for this method declaration
-		return null;
+		List<Long> primenumbers = new ArrayList<Long>();
+
+		List<Boolean> primes = new ArrayList<Boolean>();
+		for (long i = 0; i < l; i++)
+			primes.add(true);
+		if (l < 2)
+			return null;
+		int counter = 0;
+		for (long i = 2; i < Math.sqrt(l); i++) {
+			for (long j = (long) Math.pow(i, 2); j < l; j = (long) (Math.pow(i, 2) + (++counter * i))) {
+				primes.set((int) j, false);
+			}
+		}
+		for (int i = 0; i < primes.size(); i++) {
+			if (primes.get(i) == true && i >= 2)
+				primenumbers.add((long) i);
+		}
+
+		return primenumbers;
+
 	}
 
 	/**
@@ -414,7 +480,7 @@ public class EvaluationService {
 	 * gur ynml qbt. ROT13 Gur dhvpx oebja sbk whzcf bire gur ynml qbt. gives The
 	 * quick brown fox jumps over the lazy dog.
 	 */
-	static class RotationalCipher {
+	public static class RotationalCipher {
 		private int key;
 
 		public RotationalCipher(int key) {
@@ -423,8 +489,24 @@ public class EvaluationService {
 		}
 
 		public String rotate(String string) {
-			// TODO Write an implementation for this method declaration
-			return null;
+			StringBuilder result = new StringBuilder(string.toLowerCase());
+			final String alpha = "abcdefghijklmnopqrstuvwxyz";
+			for (int i = 0; i < string.length(); i++) {
+				
+				if (string.charAt(i) != ' ') {
+					// Shift using alphabet
+					int index = alpha.indexOf(string.charAt(i));
+					
+					if ( index + this.key > alpha.length()-1)
+						index = ((index + this.key) - (alpha.length()));
+					else
+						index = index + this.key;
+					
+					result.setCharAt(i, alpha.charAt(index));
+				
+				}
+			}
+			return result.toString();
 		}
 
 	}
@@ -466,21 +548,37 @@ public class EvaluationService {
 	 * size being 5 letters, and punctuation is excluded. This is to make it harder
 	 * to guess things based on word boundaries.
 	 * 
+	 * abcdefghijklmnopqrstuvwxyz
+	 * zyxwvutsrqponmlkjihgfedcba
+	 * 
 	 * Examples Encoding test gives gvhg Decoding gvhg gives test Decoding gsvjf
 	 * rxpyi ldmul cqfnk hlevi gsvoz abwlt gives thequickbrownfoxjumpsoverthelazydog
 	 *
 	 */
-	static class AtbashCipher {
+	public static class AtbashCipher {
 
+		final private String standardalpha = "abcdefghijklmnopqrstuvwxyz ";
+		final private String invertedalpha = " zyxwvutsrqponmlkjihgfedcba";
+		
+		private String cypher(String cypher) {
+			StringBuilder worker = new StringBuilder(cypher.toLowerCase());
+			for (int i = 0; i < cypher.length(); i++) {
+				int index = standardalpha.indexOf(cypher.charAt(i));
+				worker.setCharAt(i, invertedalpha.charAt(index));
+			}
+			return worker.toString();
+		}
+		
+		
 		/**
 		 * Question 13
 		 * 
 		 * @param string
 		 * @return
 		 */
-		public static String encode(String string) {
+		public String encode(String string) {
 			// TODO Write an implementation for this method declaration
-			return null;
+			return this.cypher(string);
 		}
 
 		/**
@@ -489,9 +587,9 @@ public class EvaluationService {
 		 * @param string
 		 * @return
 		 */
-		public static String decode(String string) {
+		public String decode(String string) {
 			// TODO Write an implementation for this method declaration
-			return null;
+			return this.cypher(string);
 		}
 	}
 
@@ -536,8 +634,18 @@ public class EvaluationService {
 	 * @return
 	 */
 	public boolean isPangram(String string) {
-		// TODO Write an implementation for this method declaration
-		return false;
+		String worker = new String(string.toLowerCase());
+		boolean result = false;
+		boolean[] islettersused = new boolean[26];
+		for (boolean b : islettersused) {
+			b = false;
+		}
+		
+		for (int i = 0; i < worker.length(); i++) {
+			if (worker.indexOf(ch))
+		}
+		
+		return result;
 	}
 
 	/**
@@ -643,5 +751,7 @@ public class EvaluationService {
 		// TODO Write an implementation for this method declaration
 		return 0;
 	}
+
+
 
 }

@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="TODO"/>
+		<item key="selection" value="Atbash"/>
 		<list key="findhistory">
+			<item value="Atbash"/>
 			<item value="todo"/>
 			<item value="timer"/>
 			<item value="printinfo"/>
