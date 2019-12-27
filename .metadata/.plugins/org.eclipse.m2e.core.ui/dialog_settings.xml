@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Code\Revature\StaticExample"/>
 			<item value="D:\Code\Revature\FightSim\src\main\java\dev\jason\App\DrawBuffer.java"/>
 			<item value="D:\Code\Revature\Dealership"/>
 			<item value="D:\Code\Revature\JavaBasicsOne"/>
@@ -53,6 +54,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JavaBasicsNine"/>
 			<item value="ExtraProject"/>
 			<item value="XMasEve"/>
 			<item value="Garbage"/>
@@ -67,7 +69,6 @@
 			<item value="Car2"/>
 			<item value="CarAuction"/>
 			<item value="StaticExample"/>
-			<item value="Fun"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

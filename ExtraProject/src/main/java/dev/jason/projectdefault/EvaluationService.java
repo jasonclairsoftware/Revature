@@ -642,7 +642,7 @@ public class EvaluationService {
 		}
 		
 		for (int i = 0; i < worker.length(); i++) {
-			if (worker.indexOf(ch))
+			//if (worker.indexOf(ch));
 		}
 		
 		return result;
