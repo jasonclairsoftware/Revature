@@ -2,6 +2,7 @@ package dev.jason.testpackage;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -153,12 +154,6 @@ public class EvaluationTests {
 
 	@Test
 	public void isArmstrongNumberTest() {
-//		* 9 is an Armstrong number, because 9 = 9^1 = 9 10 is not an Armstrong number,
-//				 * because 10 != 1^2 + 0^2 = 2 153 is an Armstrong number, because: 153 = 1^3 +
-//				 * 5^3 + 3^3 = 1 + 125 + 27 = 153 154 is not an Armstrong number, because: 154
-//				 * != 1^3 + 5^3 + 4^3 = 1 + 125 + 64 = 190 Write some code to determine whether
-//				 * a number is an Armstrong number.
-
 		EvaluationService es = new EvaluationService();
 		boolean result = es.isArmstrongNumber(153);
 		Assert.assertEquals(true, result);
@@ -167,16 +162,6 @@ public class EvaluationTests {
 
 	}
 
-	@Test
-	public void calculatePrimeFactorsOfTest() {
-		EvaluationService es = new EvaluationService();
-		List<Long> result = es.calculatePrimeFactorsOf(200);
-
-//		for (int i = 0; i < result.size(); i++) {
-//			System.out.println(result.get(i));
-//		}
-
-	}
 
 	@Test
 	public void rotationalCipherTest() {

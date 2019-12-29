@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.Rectangle"/>
     <fullyQualifiedTypeName name="dev.jason.App.DrawBuffer"/>
     <fullyQualifiedTypeName name="dev.jason.constructors.Dwelling"/>
     <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
@@ -31,13 +30,11 @@
     <fullyQualifiedTypeName name="dev.jason.app.WordAnalizer"/>
     <fullyQualifiedTypeName name="dev.jason.app.JasonWordAnalizer"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="org.junit.Assert"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="dev.jason.projectdefault.EvaluationService.Triangle"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="dev.jason.projectdefault.EvaluationService.RotationalCipher"/>
     <fullyQualifiedTypeName name="dev.jason.projectdefault.EvaluationService.AtbashCipher"/>
@@ -59,5 +56,11 @@
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+=======
+    <fullyQualifiedTypeName name="dev.jason.app.Dummy"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+>>>>>>> 483e394ff82481c4d0d1be59b8dfc7a04fce6ad9
 </qualifiedTypeNameHistroy>
