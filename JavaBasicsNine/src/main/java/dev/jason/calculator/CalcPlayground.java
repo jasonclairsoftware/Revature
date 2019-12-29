@@ -23,7 +23,7 @@ public class CalcPlayground {
 				System.out.println("Your result is " + calc.add(a, b));
 				isgoodanswer = false;
 			} catch (InputMismatchException e) {
-				scan.nextLine();
+				System.out.println(scan.nextLine());
 				System.out.println("That is not a valid entry. Lets try this again.");
 			} catch (NoSuchElementException e) {
 				scan.nextLine();
