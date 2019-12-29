@@ -432,26 +432,8 @@ public class EvaluationService {
 	 * @return
 	 */
 	public List<Long> calculatePrimeFactorsOf(long l) {
-		List<Long> primenumbers = new ArrayList<Long>();
 
-		List<Boolean> primes = new ArrayList<Boolean>();
-		for (long i = 0; i < l; i++)
-			primes.add(true);
-		if (l < 2)
-			return null;
-		int counter = 0;
-		for (long i = 2; i < Math.sqrt(l); i++) {
-			for (long j = (long) Math.pow(i, 2); j < l; j = (long) (Math.pow(i, 2) + (++counter * i))) {
-				primes.set((int) j, false);
-			}
-		}
-		for (int i = 0; i < primes.size(); i++) {
-			if (primes.get(i) == true && i >= 2)
-				primenumbers.add((long) i);
-		}
-
-		return primenumbers;
-
+		return null;
 	}
 
 	/**
