@@ -1,69 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="default_package.Spells"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="dev.jason.clock.Clock"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="dev.jason.App.RenderWindow"/>
-    <fullyQualifiedTypeName name="java.awt.Graphics"/>
-    <fullyQualifiedTypeName name="dev.jason.App.Warrior"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
-    <fullyQualifiedTypeName name="dev.jason.App.Screen"/>
-    <fullyQualifiedTypeName name="javax.imageio.ImageIO"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
-    <fullyQualifiedTypeName name="java.awt.image.BufferedImage"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="default_package.Flyable"/>
-    <fullyQualifiedTypeName name="default_package.Anotherable"/>
-    <fullyQualifiedTypeName name="dev.jason.app.WordAnalizer"/>
-    <fullyQualifiedTypeName name="dev.jason.app.JasonWordAnalizer"/>
-    <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="dev.jason.projectdefault.EvaluationService.Triangle"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="dev.jason.projectdefault.EvaluationService.RotationalCipher"/>
-    <fullyQualifiedTypeName name="dev.jason.projectdefault.EvaluationService.AtbashCipher"/>
-    <fullyQualifiedTypeName name="dev.jason.projectdefault.EvaluationService"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-    <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="dev.jason.checkedexcemptions.ReadWriter"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="dev.jason.customexception.UsernameValidator"/>
-    <fullyQualifiedTypeName name="dev.jason.customexception.UsernameLengthExcemption"/>
-    <fullyQualifiedTypeName name="dev.jason.excemptions.ExcemptionPlayground"/>
-    <fullyQualifiedTypeName name="dev.jason.customexception.UsernameInvalidCharacterExcemption"/>
-    <fullyQualifiedTypeName name="dev.jason.calculator.Calculator"/>
-    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
-    <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-=======
-    <fullyQualifiedTypeName name="dev.jason.app.Dummy"/>
-    <fullyQualifiedTypeName name="org.junit.Assert"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<<<<<<< HEAD
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.TreeSet"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-    <fullyQualifiedTypeName name="dev.jason.lambdas.Calcuable"/>
-=======
->>>>>>> 483e394ff82481c4d0d1be59b8dfc7a04fce6ad9
->>>>>>> ecf6e7410b522ca8d65e2bdc8c3920c8a94990d6
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.StudentLocalDAO"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.StudentDAO"/>
+    <fullyQualifiedTypeName name="dev.jason.entities.Student"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
 </qualifiedTypeNameHistroy>

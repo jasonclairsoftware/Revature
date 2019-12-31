@@ -54,6 +54,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="FullSailStudent"/>
 			<item value="JavaBasicsTen"/>
 			<item value="Garbage"/>
 			<item value="JavaBasicsNine"/>
@@ -68,7 +69,6 @@
 			<item value="Inheridance"/>
 			<item value="Dealership"/>
 			<item value="Car2"/>
-			<item value="CarAuction"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

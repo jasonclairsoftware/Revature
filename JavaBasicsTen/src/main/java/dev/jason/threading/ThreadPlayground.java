@@ -25,7 +25,7 @@ public class ThreadPlayground {
 			x = x+ 20;
 			System.out.println(x);
 			System.out.println(Thread.currentThread());
-			System.out.println("Hello from Runnable 2");
+			System.out.println("Goodbye from Runnable 2");
 		};
 		
 		Thread thread1 = new Thread(run1);
