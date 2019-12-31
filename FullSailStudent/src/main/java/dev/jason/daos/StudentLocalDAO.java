@@ -1,6 +1,8 @@
 package dev.jason.daos;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import dev.jason.entities.Student;
@@ -26,7 +28,12 @@ public class StudentLocalDAO implements StudentDAO{
 	}
 
 	public Student getStudentbyUsername(String username) {
-		// TODO Auto-generated method stub
+		List<Student> students = new ArrayList<Student>(studenttable.values());
+		for (Student student : students) {
+			if (student.getUsername().equals(username)) {
+				return student;
+			}
+		}
 		return null;
 	}
 

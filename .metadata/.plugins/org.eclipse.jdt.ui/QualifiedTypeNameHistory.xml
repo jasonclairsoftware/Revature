@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="dev.jason.daos.StudentLocalDAO"/>
-    <fullyQualifiedTypeName name="dev.jason.daos.StudentDAO"/>
-    <fullyQualifiedTypeName name="dev.jason.entities.Student"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.StudentDAO"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.StudentLocalDAO"/>
+    <fullyQualifiedTypeName name="dev.jason.services.StudentService"/>
+    <fullyQualifiedTypeName name="dev.jason.services.StudentImpl"/>
+    <fullyQualifiedTypeName name="dev.jason.entities.Student"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.CourseDAO"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.CourseLocalDAO"/>
+    <fullyQualifiedTypeName name="dev.jason.entities.Course"/>
 </qualifiedTypeNameHistroy>
