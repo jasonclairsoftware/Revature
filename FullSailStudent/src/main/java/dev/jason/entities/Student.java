@@ -28,7 +28,7 @@ public class Student {
 		this.id = id;
 		this.username = username;
 		this.password = password;
-		this.transcript = transcript;
+		//this.transcript = transcript;
 	}
 
 	public int getId() {

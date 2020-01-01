@@ -23,6 +23,7 @@ public class StudentImpl implements StudentService {
 	}
 
 	public Student addCourseToTranscript(Student student, Course course) {
+		course.setStudentid(student.getId());
 		cdao.createCourse(course);
 		student.getTranscript().add(course);
 		return student;
