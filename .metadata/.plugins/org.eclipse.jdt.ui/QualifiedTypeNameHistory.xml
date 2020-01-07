@@ -4,11 +4,9 @@
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="dev.jason.daos.StudentDAO"/>
     <fullyQualifiedTypeName name="dev.jason.daos.StudentLocalDAO"/>
     <fullyQualifiedTypeName name="dev.jason.services.StudentService"/>
     <fullyQualifiedTypeName name="dev.jason.services.StudentImpl"/>
-    <fullyQualifiedTypeName name="dev.jason.entities.Student"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -16,4 +14,21 @@
     <fullyQualifiedTypeName name="dev.jason.daos.CourseDAO"/>
     <fullyQualifiedTypeName name="dev.jason.daos.CourseLocalDAO"/>
     <fullyQualifiedTypeName name="dev.jason.entities.Course"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLTimeoutException"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.StudentDAO"/>
+    <fullyQualifiedTypeName name="dev.jason.daos.StudentJDBCDAO"/>
+    <fullyQualifiedTypeName name="java.beans.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLIntegrityConstraintViolationException"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="dev.jason.entities.Student"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="dev.jason.utilities.ConnectionUtil"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
 </qualifiedTypeNameHistroy>
