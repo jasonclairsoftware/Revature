@@ -1,9 +1,9 @@
-#Tue Jan 07 09:35:50 EST 2020
+#Wed Jan 08 08:19:12 EST 2020
 ct=jbt
 a=finishWizard
 c=0
-s=1
-d=1578407750481
+s=0
+d=1578489552187
 v=2.2.202
 vl=How many times the 'Finish' button pressed during the day
 cmp=usage

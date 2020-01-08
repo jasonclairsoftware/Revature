@@ -1,17 +1,16 @@
 package dev.jason.services;
 
 import dev.jason.daos.CourseDAO;
-import dev.jason.daos.CourseLocalDAO;
+import dev.jason.daos.CourseJDBCDAO;
 import dev.jason.daos.StudentDAO;
-import dev.jason.daos.StudentLocalDAO;
+import dev.jason.daos.StudentJDBCDAO;
 import dev.jason.entities.Course;
 import dev.jason.entities.Student;
 
 public class StudentImpl implements StudentService {
 
-	StudentDAO sdao = new StudentLocalDAO();
-	CourseDAO cdao = new CourseLocalDAO();
-	
+	StudentDAO sdao = new StudentJDBCDAO();
+	CourseDAO cdao = new CourseJDBCDAO();
 	
 	public Student loginStudent(String username, String password) {
 		Student student = this.sdao.getStudentbyUsername(username);
@@ -24,13 +23,15 @@ public class StudentImpl implements StudentService {
 
 	public Student addCourseToTranscript(Student student, Course course) {
 		course.setStudentid(student.getId());
-		cdao.createCourse(course);
+		int cid = cdao.createCourse(course);
+		course.setId(cid);
 		student.getTranscript().add(course);
+		
 		return student;
 	}
 
 	public Student enrollStudent(Student student) {
-		sdao.createStudent(student);
+		student.setId(sdao.createStudent(student));
 		return student;
 	}
 

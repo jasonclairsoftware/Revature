@@ -7152,3 +7152,64 @@ org.eclipse.core.runtime.CoreException: Launch configuration main references non
 2020-01-07 14:53:30,899 [Worker-166: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
 2020-01-07 14:53:30,900 [Worker-166: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-01-07 14:53:30,907 [Worker-166: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 08:19:07,783 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-08 08:57:42,364 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 08:57:42,373 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 08:57:42,375 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 08:57:42,382 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:14:46,586 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:14:46,597 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:14:46,599 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:14:46,609 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:15:19,624 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:15:19,634 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:15:19,636 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:15:19,643 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:22:28,446 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:22:28,454 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:22:28,455 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:22:28,462 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:23:12,736 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:23:12,746 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:23:12,748 [Worker-52: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:23:12,756 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:27:31,665 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:27:31,672 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:27:31,674 [Worker-44: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:27:31,681 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:28:07,394 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:28:07,404 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:28:07,406 [Worker-51: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:28:07,413 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:28:48,131 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:28:48,139 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:28:48,140 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:28:48,147 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:43:12,867 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:43:12,875 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:43:12,877 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:43:12,883 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:44:39,238 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:44:39,247 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:44:39,249 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:44:39,256 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:47:40,988 [Worker-54: Launching CourseJDBCTests.getCoursesByStudentTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:47:41,000 [Worker-54: Launching CourseJDBCTests.getCoursesByStudentTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:47:41,002 [Worker-54: Launching CourseJDBCTests.getCoursesByStudentTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:47:41,012 [Worker-54: Launching CourseJDBCTests.getCoursesByStudentTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:51:21,131 [Worker-49: Launching StudentApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:51:21,138 [Worker-49: Launching StudentApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:51:21,139 [Worker-49: Launching StudentApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:51:21,146 [Worker-49: Launching StudentApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:52:32,357 [Worker-50: Launching StudentApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:52:32,369 [Worker-50: Launching StudentApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:52:32,370 [Worker-50: Launching StudentApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:52:32,378 [Worker-50: Launching StudentApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 14:54:57,418 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:54:57,425 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 14:54:57,426 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 14:54:57,433 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
+2020-01-08 15:00:22,650 [Worker-56: Launching StudentApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 15:00:22,657 [Worker-56: Launching StudentApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\main\resources
+2020-01-08 15:00:22,658 [Worker-56: Launching StudentApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 15:00:22,667 [Worker-56: Launching StudentApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Code\Revature\FullSailStudent\src\test\resources
